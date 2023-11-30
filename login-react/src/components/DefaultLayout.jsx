@@ -19,7 +19,7 @@ export default function DefaultLayout() {
                     <a href="#">Logout</a>
                 </div>
             </nav>
-            <main>
+            <main className="outlet">
                 <Outlet/>
             </main>
         </div>
